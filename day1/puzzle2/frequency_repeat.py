@@ -4,7 +4,7 @@ done = False
 frequency = 0
 
 while done == False:
-	with open("input.txt", "r") as file:
+	with open("day1_input.txt", "r") as file:
 		for line in file:
 			frequency += int(line)
 			if nums.get(frequency) == 1:
