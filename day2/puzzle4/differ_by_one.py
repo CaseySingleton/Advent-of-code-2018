@@ -1,7 +1,7 @@
 
 def get_info( info ):
 	index = 0
-	with open("day2_input.txt", "r") as file:
+	with open("../day2_input.txt", "r") as file:
 		for line in file:
 			info[index] = line.rstrip()
 			index += 1

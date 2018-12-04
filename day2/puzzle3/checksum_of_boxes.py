@@ -6,7 +6,7 @@ get_double = True
 get_triple = True
 count = 0
 
-with open("day2_input.txt", "r") as file:
+with open("../day2_input.txt", "r") as file:
 	for line in file:
 		get_double = True
 		get_triple = True
